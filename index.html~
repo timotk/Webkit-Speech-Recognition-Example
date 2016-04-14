@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Speech Recognition test</title>
+	<script type="text/javascript" src="/js/lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/lib/SpeechRecognition/Speech.js"></script>
+	<script type="text/javascript" src="/js/AppController.js"></script>
+</head>
+<body>
+    <p>
+       <button id="capture" value="true">Start</button>
+       <span>Status: </span>
+       <span id="status">Idle</span>
+       <br>
+       <textarea id="output" rows=10 placeholder="result"></textarea>
+   </p>
+</body>
+</html>
